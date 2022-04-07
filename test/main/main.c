@@ -1,10 +1,19 @@
 /**
-  * @brief demonstrates the use of "factory_reset_task"
-  *
-  * Erases WiFi credentials in nvram when GPIO#0 pulled low.
- **/
-// Copyright © 2020, Coert Vonk
-// SPDX-License-Identifier: MIT
+ * @brief ESP32_factory_reset_task - Demonstrates the use of "factory_reset_task"
+ *
+ * Erases WiFi credentials in nvram when GPIO#0 pulled low.
+ *
+ * Inspired by <https://github.com/espressif/esp-idf/blob/master/examples/system/ota/native_ota_example/main/native_ota_example.c>
+ * 
+ * Written in 2019 by Coert Vonk 
+ * 
+ * To the extent possible under law, the author(s) have dedicated all copyright and related and
+ * neighboring rights to this software to the public domain worldwide. This software is
+ * distributed without any warranty. You should have received a copy of the CC0 Public Domain
+ * Dedication along with this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+ * 
+ * SPDX-License-Identifier: CC0-1.0
+ */
 
 #include <stdlib.h>
 #include <string.h>
