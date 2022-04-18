@@ -1,6 +1,8 @@
 # ESP32 - Factory Reset WiFi Credentials task
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![GitHub Discussions](https://img.shields.io/github/discussions/cvonk/ESP32_factory-reset-task)](https://github.com/cvonk/ESP32_ota-update-task/discussions)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/cvonk/ESP32_factory-reset-task)
+![GitHub](https://img.shields.io/github/license/cvonk/ESP32_factory-reset-task)
 
 ## Goal
 
@@ -54,4 +56,4 @@ xTaskCreate(&factory_reset_task, "factory_reset_task", 4096, NULL, 5, NULL);
 
 ## Feedback
 
-I love to hear from you. Please use the usual Github mechanisms to contact me.
+I love to hear from you. Please use the Github discussion board to contact me.
